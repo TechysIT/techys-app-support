@@ -7,8 +7,10 @@ import {useState} from "react";
 import Swal from 'sweetalert2'
 
 const AppsList = [
+    {key: "okra", label: "Okra - Fine Indian Dining"},
     {key: "normanton", label: "Normanton"},
-    {key: "simvic", label: "Simvic"}
+    {key: "simvic", label: "Simvic"},
+    {key: "oneDream", label: "OneDream"}
 ];
 
 export function AppForm() {
